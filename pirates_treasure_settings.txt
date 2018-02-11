@@ -1,0 +1,95 @@
+Pirates Treasure Settings:
+	Talk to Redbeard Frank (0,0) ((3052, 3247, 0), Radius: 10)
+		-SETTING 71 CHANGES FROM 0 --> 1
+	Buy One Karamja Rum (431) from Zambo((2925, 3146, 0), Radius: 6)
+		-Requirements:
+			-60 gp (30 if on Karamja)
+			-One free inventory space
+			-Quest Journal: "I need to go to Karamja and buy some rum"
+		-Karamja Rum appears in inventory
+	Talk to Luthas (0) ((2940, 3153, 0), Radius: 6)
+		-Quest Journal Updates:
+			-"I have taken employment on the banana plantation"
+	Hide rum in crate outside of house ((2942, 3151, 0), Radius: 3)
+		-Requirements:
+			-Karamja rum (431)
+		-Quest Journal Updates:
+			-"I have hidden my rum in the crate"
+	Pick 10 bananas ((2917, 3160, 0), Radius: 15)
+		-Click Banana Tree w/ Pick option
+		-10 free inventory spaces
+	Fill crate outside of house
+		-Requirements:
+			-10 bananas
+		-Click "Fill" option on crate
+		-Quest Journal Updates:
+			-"and filled it with bananas"
+	Talk to Luthas
+		-Requirements:
+			-Quest journal: "I should speak to Luthas and have it shipped"	
+		-30gp appears in inventory
+		-Quest Journal Updates:
+			-"I have spoken to Luthas, and the crate has been shipped"
+	Take White apron (1005) from fishing store ((3016, 3229, 0), Radius: 3) (if player doesn't have one)
+		Requirements:
+			-One free inventory space
+		-White apron appears in inventory
+	Collect rum
+		-Requirements:
+			-White apron
+			-Quest Journal: NOT "I have the Karamja Rum"
+			-One free inventory space
+		-Equip White apron
+		-Walk to (3012, 3204, 0) Radius: 5
+		-Click Door at (3012, 3204, 0)
+		-Go through dialogue, select option 0
+		-Search Crate at (3009, 3207, 0)
+			-Wait for bottle of rum to appear in inventory
+			-Quest Journal updates:
+				-"I have the Karamja Rum."
+	Give rum to Redbeard Frank (0)
+		-Requirements:
+			-Karamja rum (431)
+			-Quest Journal: "I have the Karamja Rum."
+		-SETTING 71 CHANGES FROM 1 --> 2
+		-Chest key (432) appears in inventory
+	Open Chest ((3219, 3395, 1), Radius: 3)
+		-Requirements:
+			-Chest key (432)
+		Use Chest key on chest
+			-Wait until Pirate message (433) is in inventory
+	Read Pirate message
+		-Requirements:
+			-Pirate message (433)
+		Read Pirate message
+			-Wait for setting change
+			-SETTING 71 CHANGES FROM 2 --> 3
+	Get Spade (952) ((2982, 3370, 0), Radius: 2) (If character doesn't have one)
+		-If door is open, you must close it first
+		-Pick up ground item: Spade
+	Dig for treasure ((2999, 3383, 0), Radius: 1)
+		-Requirements:
+			-Spade
+			-One free inventory space
+		Click Dig on Spade
+			-Gardener attacks you
+			-Kill Gardener, or run away
+			-If running away:
+				Run to (2998, 3361, 0)
+		Click Dig on Spade again
+			-Wait for Casket (7956) to appear in inventory
+			-SETTING 71 CHANGES FROM 3 --> 4
+	Open Casket
+		-Click open
+			-Wait until Casket is no longer in inventory
+		
+		
+	
+		
+		
+			
+		
+		
+	
+	
+		

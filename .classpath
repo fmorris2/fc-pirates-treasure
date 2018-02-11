@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="FC_Framework/" kind="src" path=""/>
+	<classpathentry kind="src" path="FC_Framework"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Freddy/AppData/Roaming/.tribot/dependancies/TRiBot.jar"/>
+	<classpathentry kind="output" path="TRIBOT_BIN"/>
+</classpath>
